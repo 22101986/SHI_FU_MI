@@ -17,6 +17,8 @@ alert("L'ordinateur à choisi " + choice);
 // message renvoyant le choix de l'ordinateur //
 
 function result(userChoice, choice) {
+// fonction qui compare les résultats de l'utilisateur et de l'ordinateur 
+// puis affiche le message de résultat //    
     if(choice === "pierre" && userChoice === "ciseaux"){
         alert("Domage vous avez perdu...");
     };
@@ -47,10 +49,11 @@ function result(userChoice, choice) {
 };
 
 result(userChoice, choice);
+// appel de la fonction afin qu'elle s'éxécute //
 
 alert("Partie terminée merci de votre participation " + userName + "!");
 alert("POUR REJOUER RAFRAîCHIR LA PAGE... ;)")
-
+// messages de fin de partie //
 
 
 
